@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![Snake animation](https://github.com/c-chapellier/c-chapellier/assets/animated-icon.json)
+![Animated Icon](https://github.com/c-chapellier/c-chapellier/blob/main/animated-icon.json)
 
 Here are some ideas to get you started:
 
