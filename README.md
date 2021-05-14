@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![Animated Icon](https://github.com/c-chapellier/c-chapellier/blob/main/animated-icon.json)
+![Alt Text](https://github.com/c-chapellier/c-chapellier/blob/main/loading.gif)
 
 Here are some ideas to get you started:
 
