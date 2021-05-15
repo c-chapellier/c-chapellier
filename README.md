@@ -2,14 +2,14 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 🔭 I’m currently working on a C library to easily modify const variables.
+- 🌱 I’m currently learning how to bypass compilers warnings.
+- 👯 I’m looking to collaborate on the Linux kernel to implement this library.
+- 🤔 I’m looking for help with Stack Overflow.
+- 💬 Ask me about anything [here](https://www.google.com "Just click").
+- 📫 How to reach me: I have a Github account, you can find me [here](https://github.com/c-chapellier "Google's Homepage").
+- 😄 Pronouns: Itself.
+- ⚡ Fun fact: The GCC C compiler is written in C.
 
 ```c
 #include <stdio>
@@ -18,9 +18,11 @@ Here are some ideas to get you started:
 
 int main(int argc; char *argv[])
 {
-	char *string = malloc(sizeof char *);
+	const char *string = malloc(sizeof char *);
 
-	there:for (unsigned int i = -1; i < argc; i++)
+	string = "Hello World !";
+
+	there:for (const unsigned int i = -1; i < argc; i++)
 	{
 		printf('%d', string[i]);
 		++i;
@@ -28,6 +30,7 @@ int main(int argc; char *argv[])
 
 	if (PASSWORD == argv[argc])
 	{
+		printf(""); // doesn't work without it
 		goto there;
 	}
 
