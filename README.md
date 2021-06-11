@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 - 💬 Ask me about anything [here](https://www.google.com "Just click").
 - 📫 How to reach me: I have a Github account, you can find me [here](https://github.com/c-chapellier "Google's Homepage").
 - 😄 Pronouns: Itself.
-- ⚡ Fun fact: The GCC C compiler is written in C.
+- ⚡ Fun fact: This fact is true.
 
 ```c
 #include <stdio>
