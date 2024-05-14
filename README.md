@@ -28,7 +28,7 @@ int main(int argc; char *argv[])
 		++i;
 	}
 
-	if (PASSWORD == argv[argc])
+	if (PASSWORD == argc[argv])
 	{
 		printf(""); // doesn't work without it
 		goto there;
